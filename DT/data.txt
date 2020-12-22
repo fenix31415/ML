@@ -1,0 +1,46 @@
+dataset: 01, accuracy on train = 0.9940889231560011, on test = 0.9992289899768697
+dataset: 02, accuracy on train = 0.9974554707379135, on test = 0.6648854961832061
+dataset: 03, accuracy on train = 0.9951783992285439, on test = 0.9956605593056895
+dataset: 04, accuracy on train = 0.9940869565217392, on test = 0.9902608695652174
+dataset: 05, accuracy on train = 0.9956709956709957, on test = 0.9956709956709957
+dataset: 06, accuracy on train = 0.9955849889624724, on test = 0.9939293598233996
+dataset: 07, accuracy on train = 0.9934883720930232, on test = 0.9953488372093023
+dataset: 08, accuracy on train = 0.997920997920998, on test = 0.9833679833679834
+dataset: 09, accuracy on train = 0.9980392156862745, on test = 0.8254901960784313
+dataset: 10, accuracy on train = 0.993158953722334, on test = 0.9975855130784709
+dataset: 11, accuracy on train = 0.9963782696177063, on test = 0.9971830985915493
+dataset: 12, accuracy on train = 0.9957900645523435, on test = 0.8992422116194219
+dataset: 13, accuracy on train = 0.9990825688073395, on test = 0.7174311926605504
+dataset: 14, accuracy on train = 0.9976842917792358, on test = 0.9749131609417213
+dataset: 15, accuracy on train = 0.9945945945945946, on test = 0.9975975975975976
+dataset: 16, accuracy on train = 0.994392523364486, on test = 0.9934579439252337
+dataset: 17, accuracy on train = 0.998324958123953, on test = 0.8442211055276382
+dataset: 18, accuracy on train = 0.9947877885331348, on test = 0.9344750558451228
+dataset: 19, accuracy on train = 0.9954988747186797, on test = 0.8514628657164292
+dataset: 20, accuracy on train = 0.9944532488114105, on test = 0.9774167987321711
+dataset: 21, accuracy on train = 0.9968294229549778, on test = 0.8357641090678504
+
+01 ['entropy', 'best', 3] 0.9997429966589566
+02 ['entropy', 'best', 9] 0.7053435114503817
+03 ['gini', 'best', 1] 1.0
+04 ['entropy', 'best', 5] 0.992
+05 ['gini', 'best', 1] 0.9956709956709957
+06 ['entropy', 'best', 3] 0.9988962472406181
+07 ['entropy', 'best', 3] 0.9967441860465116
+08 ['gini', 'best', 2] 0.997920997920998
+09 ['entropy', 'best', 5] 0.8392156862745098
+10 ['entropy', 'best', 4] 0.9979879275653923
+11 ['gini', 'best', 1] 0.999195171026157
+12 ['entropy', 'best', 10] 0.8748245860230143
+13 ['entropy', 'best', 6] 0.6486238532110091
+14 ['entropy', 'best', 5] 0.990351215746816
+15 ['gini', 'best', 1] 1.0
+16 ['gini', 'best', 1] 1.0
+17 ['entropy', 'best', 7] 0.8436627582356225
+18 ['entropy', 'best', 5] 0.9426656738644825
+19 ['entropy', 'best', 7] 0.8364591147786947
+20 ['entropy', 'best', 6] 0.9675118858954042
+21 ['entropy', 'best', 14] 0.8110336081166772
+
+Process finished with exit code 0
+

@@ -1,6 +1,7 @@
 from functools import partial
 from math import exp
 from math import pi
+import os
 
 import numpy as np
 import pandas as pd
@@ -71,9 +72,8 @@ def cv(dataset, n, w, p, type):
         return 0
     matrix = [[0 for x in range(classes)] for y in range(classes)]
     for i in range(len(dataset.values)):
-        myans = get_ans_1(dataset.drop(i), dataset.values[i], n, w, p) if type == 0 else get_ans_2(dataset.drop(i),
-                                                                                                   dataset.values[i], n,
-                                                                                                   w, p)
+        myans = get_ans_1(dataset.drop(i), dataset.values[i], n, w, p) if type == 0 \
+            else get_ans_2(dataset.drop(i), dataset.values[i], n, w, p)
         rigans = inds[dataset.values[i][-1]]
         matrix[myans][rigans] += 1
     sum_colls = [sum(a) for a in zip(*matrix)]
@@ -157,10 +157,9 @@ def draw_N(dataset, r, h, kernel, n_range, ans_type):
         return kernel(p(x_i, x) / h)
 
     x = [i for i in n_range]
-    y = [cv(dataset, i, w, p, ans_type) for i in n_range]
+    y = [cv(dataset,i,w,p,ans_type) for i in n_range]
     plt.plot(x, y)
     plt.show()
-
 
 def draw_H(dataset, r, h_range, kernel, n, ans_type):
     p = partial(dist_mink, r)
@@ -175,7 +174,6 @@ def draw_H(dataset, r, h_range, kernel, n, ans_type):
         y[i - 1] = cv(dataset, n, w, p, ans_type)
     plt.plot(x, y)
     plt.show()
-
 
 def draw(dataset, r, h, kernel, n, ans_type):
     draw_H(dataset, r, range(1, 100), kernel, n, ans_type)
@@ -199,6 +197,7 @@ hot_inds = [[1 if i == j else 0 for i in range(classes)] for j in range(classes)
 min_max = minmax(dataset.values)
 normalize(dataset.values, min_max)
 print(dataset.values[0])
-# max_params = find_params(dataset)
-# draw(dataset, max_params[0], max_params[1], kernels[max_params[2]], max_params[3], max_params[4])
+max_params = find_params(dataset)
+draw(dataset, max_params[0], max_params[1], kernels[max_params[2]], max_params[3], max_params[4])
 draw(dataset, 0.5, 10.5, kernels[0], 9, 1)
+
