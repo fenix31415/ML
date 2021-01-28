@@ -141,6 +141,16 @@
     <ClCompile Include="A.cpp" />
     <ClCompile Include="B.cpp" />
     <ClCompile Include="C.cpp" />
+    <ClCompile Include="D.cpp" />
+    <ClCompile Include="F.cpp" />
+    <ClCompile Include="G.cpp" />
+    <ClCompile Include="H.cpp" />
+    <ClCompile Include="L.cpp" />
+    <ClCompile Include="M.cpp" />
+    <ClCompile Include="N.cpp" />
+    <ClCompile Include="O.cpp" />
+    <ClCompile Include="P.cpp" />
+    <ClCompile Include="Q.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

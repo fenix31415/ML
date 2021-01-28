@@ -1,6 +1,4 @@
-﻿  C.cpp
-D:\Dmitriy\ITMO\ML\MLCF\MlCF\MlCF\C.cpp(19,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Dmitriy\ITMO\ML\MLCF\MlCF\MlCF\C.cpp(24,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Dmitriy\ITMO\ML\MLCF\MlCF\MlCF\C.cpp(29,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Dmitriy\ITMO\ML\MLCF\MlCF\MlCF\C.cpp(72,20): warning C4018: <: несоответствие типов со знаком и без знака
+﻿  G.cpp
+D:\Dmitriy\ITMO\ML\MLCF\MlCF\MlCF\G.cpp(32,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Dmitriy\ITMO\ML\MLCF\MlCF\MlCF\G.cpp(35,23): warning C4018: <: несоответствие типов со знаком и без знака
   MlCF.vcxproj -> D:\Dmitriy\ITMO\ML\MLCF\MlCF\Debug\MlCF.exe
